@@ -3,7 +3,7 @@ import Navbar from "@/app/ui/navbar";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-10">
+    <div className="grid grid-rows-10 p-14">
       <Navbar />
       
       <div className="container bg-black-800 p-20 grid grid-cols-2 gap-4">
