@@ -29,11 +29,8 @@ export default function Home() {
             className="rounded-full aspect-quare object-cover border-8 border-white"
             alt="My picture in Web View"
           />
-          
         </div>  
-        
       </div>
-      
     </div>
   );
 }
