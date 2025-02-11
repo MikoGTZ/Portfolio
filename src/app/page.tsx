@@ -5,7 +5,7 @@ export default function Home() {
   return (
       <div className="grid grid-rows-3" >
         <Navbar />
-        <div className="container bg-black-800 p-20 grid grid-cols-2 gap-4">
+        <div className="container bg-black-800 p-20 grid grid-cols-2 gap-4" id="home">
           <div className="flex flex-col justify-center">
             <h1 className="text-white text-5xl my-1">Hello, I'm</h1>
             <h1 className="text-white text-5xl my-1"><strong>Miko Ofiaza</strong></h1>
@@ -32,7 +32,7 @@ export default function Home() {
 
         {/* Skils */}
 
-        <div className="bg-[#3a3636]">
+        <div className="bg-[#3a3636]" id="skills">
           <h1 className="text-white text-center text-5xl font-bold mt-10">Skills</h1>
             <div className="grid grid-cols-2 ml-8 mr-8 mt-8 gap-10">
               <div
@@ -84,7 +84,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div className="p-14">
+        <div className="p-14" id="contact">
           <h1 className="text-white text-center text-5xl font-bold">Get in Touch</h1>
           <div className="grid grid-cols-3 mt-14">
             <div>
@@ -98,7 +98,7 @@ export default function Home() {
                     id="exampleFormControlInput1"
                     placeholder="Example label" />
                   <label
-                    form="exampleFormControlInput1"
+                    form="exampleFormControlInput2"
                     className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
                     >Name
                   </label>
@@ -107,10 +107,10 @@ export default function Home() {
                   <input
                     type="text"
                     className="peer block min-h-[auto] w-full rounded bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0 border border-gray-800 border-b-gray-600"
-                    id="exampleFormControlInput1"
+                    id="exampleFormControlInput2"
                     placeholder="Example label" />
                   <label
-                    form="exampleFormControlInput1"
+                    form="exampleFormControlInput3"
                     className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
                     >Email
                   </label>
@@ -118,11 +118,11 @@ export default function Home() {
                 <div className="relative mb-3 mt-20" data-twe-input-wrapper-init>
                   <textarea
                     className="peer block min-h-[auto] w-full rounded border border-gray-800 border-b-gray-600 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
-                    id="exampleFormControlTextarea1"
+                    id="exampleFormControlTextarea4"
                     rows={4}
                     placeholder="Your message"></textarea>
                   <label
-                    form="exampleFormControlTextarea1"
+                    form="exampleFormControlTextarea5"
                     className="pointer-events-none absolute left-3 top-0 bottom-2 mb-0 max-w-[90%] origin-[0_0] truncate pt-[5.25em] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
                     >Message
                   </label>
