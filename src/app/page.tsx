@@ -3,7 +3,7 @@ import Navbar from "@/app/ui/navbar";
 
 export default function Home() {
   return (
-      <div className="grid grid-rows-10 p-14" >
+      <div className="grid grid-rows-3" >
         <Navbar />
         <div className="container bg-black-800 p-20 grid grid-cols-2 gap-4">
           <div className="flex flex-col justify-center">
@@ -30,9 +30,11 @@ export default function Home() {
           </div>  
         </div>
 
+        {/* Skils */}
+
         <div className="bg-gray-700">
-          <h1 className="text-white text-center text-5xl font-bold mt-8">Skills</h1>
-            <div className="grid grid-cols-2 p-8">
+          <h1 className="text-white text-center text-5xl font-bold mt-10">Skills</h1>
+            <div className="grid grid-cols-2 ml-8 mr-8 mt-8 gap-10">
               <div
                 className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-gray-700 border border-gray-500">
                 <h5 className="mb-2 text-xl font-medium leading-tight">Angular</h5>
@@ -48,7 +50,7 @@ export default function Home() {
                 </p> 
               </div>
             </div>
-            <div className="grid grid-cols-2 p-8">
+            <div className="grid grid-cols-2 ml-8 mr-8 mt-8 gap-10">
               <div
                 className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-gray-700 border border-gray-500">
                 <h5 className="mb-2 text-xl font-medium leading-tight">Laravel</h5>
@@ -64,7 +66,7 @@ export default function Home() {
                 </p> 
               </div>
             </div>
-            <div className="grid grid-cols-2 p-8">
+            <div className="grid grid-cols-2 ml-8 mr-8 mt-8 gap-10 mb-20">
               <div
                   className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-gray-700 border border-gray-500">
                   <h5 className="mb-2 text-xl font-medium leading-tight">PHP</h5>
@@ -81,6 +83,73 @@ export default function Home() {
                 </div>
             </div>
         </div>
+
+        <div className="p-14">
+          <h1 className="text-white text-center text-5xl font-bold">Get in Touch</h1>
+          <div className="grid grid-cols-3 mt-14">
+            <div>
+              <div
+                className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-gray-800 border border-gray-500">
+                <h5 className="mb-2 text-xl font-medium leading-tight">Send Message</h5>
+                <div className="relative mt-4" data-twe-input-wrapper-init>
+                  <input
+                    type="text"
+                    className="peer block min-h-[auto] w-full rounded bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0 border border-gray-800 border-b-gray-600"
+                    id="exampleFormControlInput1"
+                    placeholder="Example label" />
+                  <label
+                    form="exampleFormControlInput1"
+                    className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
+                    >Name
+                  </label>
+                </div>
+                <div className="relative mt-4" data-twe-input-wrapper-init>
+                  <input
+                    type="text"
+                    className="peer block min-h-[auto] w-full rounded bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0 border border-gray-800 border-b-gray-600"
+                    id="exampleFormControlInput1"
+                    placeholder="Example label" />
+                  <label
+                    form="exampleFormControlInput1"
+                    className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
+                    >Email
+                  </label>
+                </div>
+                <div className="relative mb-3 mt-20" data-twe-input-wrapper-init>
+                  <textarea
+                    className="peer block min-h-[auto] w-full rounded border border-gray-800 border-b-gray-600 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                    id="exampleFormControlTextarea1"
+                    rows={4}
+                    placeholder="Your message"></textarea>
+                  <label
+                    form="exampleFormControlTextarea1"
+                    className="pointer-events-none absolute left-3 top-0 bottom-2 mb-0 max-w-[90%] origin-[0_0] truncate pt-[5.25em] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
+                    >Message
+                  </label>
+                </div>
+                <div className="text-center">
+                  <button
+                    type="button"
+                    className="inline-block rounded bg-neutral-100 px-4 pb-2 pt-2 text-sm text-black font-bold leading-normal text-neutral-600 shadow-light-3 transition duration-150 ease-in-out hover:bg-neutral-200 hover:shadow-light-2 focus:bg-neutral-200 focus:shadow-light-2 focus:outline-none focus:ring-0 active:bg-neutral-200 active:shadow-light-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong tracking-wider mt-4">
+                    Submit Message 
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="w-1 h-100 bg-white mx-auto"></div>
+            <div className="grid grid-rows-10">
+              <h1 className="text-white text-2xl">Quick Contact:</h1>
+                <span className="text-white">Phone: +63 955 543 9830</span>
+                <span className="text-white">Email: mikoofiaza@gmail.com</span>
+                <span className="text-white">Address: Artacho, Sison, Pangasinan</span>
+            </div>
+          </div>
+        </div>
+        <footer className="bg-gray-800">
+          <h1 className="text-gray-500 text text-center">@2025 copyright all right reserved</h1>
+        </footer>
       </div>      
+
+      
   );
 }
