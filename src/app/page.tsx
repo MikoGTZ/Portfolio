@@ -14,7 +14,7 @@ export default function Home() {
             <div>
               <button
                 type="button"
-                className="inline-block rounded bg-neutral-100 px-4 pb-2 pt-2 text-sm font-medium uppercase leading-normal text-neutral-600 shadow-light-3 transition duration-150 ease-in-out hover:bg-neutral-200 hover:shadow-light-2 focus:bg-neutral-200 focus:shadow-light-2 focus:outline-none focus:ring-0 active:bg-neutral-200 active:shadow-light-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong tracking-wider">
+                className="inline-block rounded bg-neutral-100 px-4 pb-2 pt-2 text-sm font-bold uppercase leading-normal text-black shadow-light-3 transition duration-150 ease-in-out hover:bg-neutral-200 hover:shadow-light-2 focus:bg-neutral-200 focus:shadow-light-2 focus:outline-none focus:ring-0 active:bg-neutral-200 active:shadow-light-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong tracking-wider">
                 Download CV 
               </button>
             </div>      
@@ -32,18 +32,18 @@ export default function Home() {
 
         {/* Skils */}
 
-        <div className="bg-gray-700">
+        <div className="bg-[#3a3636]">
           <h1 className="text-white text-center text-5xl font-bold mt-10">Skills</h1>
             <div className="grid grid-cols-2 ml-8 mr-8 mt-8 gap-10">
               <div
-                className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-gray-700 border border-gray-500">
+                className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#3a3636] border border-gray-500">
                 <h5 className="mb-2 text-xl font-medium leading-tight">Angular</h5>
                 <p className="mb-4 text-base">
                   I specialize in Angular development, building dynamic, responsive, and scalable web applications with a focus on performance, maintainability, and seamless user experiences.
                 </p> 
               </div>
               <div
-                className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-gray-700 border border-gray-500">
+                className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#3a3636] border border-gray-500">
                 <h5 className="mb-2 text-xl font-medium leading-tight">MySQL</h5>
                 <p className="mb-4 text-base">
                   Proficient in MySQL, I design and manage optimized databases, ensuring efficient data storage, retrieval, and performance tuning.
@@ -52,14 +52,14 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 ml-8 mr-8 mt-8 gap-10">
               <div
-                className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-gray-700 border border-gray-500">
+                className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#3a3636] border border-gray-500">
                 <h5 className="mb-2 text-xl font-medium leading-tight">Laravel</h5>
                 <p className="mb-4 text-base">
                   Experienced in Laravel, I develop maintainable web applications with powerful backend functionality and API integrations.
                 </p> 
               </div>
               <div
-                className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-gray-700 border border-gray-500">
+                className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#3a3636] border border-gray-500">
                 <h5 className="mb-2 text-xl font-medium leading-tight">Video Editing</h5>
                 <p className="mb-4 text-base">
                   Skilled in video editing, I create engaging and high-quality content, enhancing visuals with smooth transitions, effects, and storytelling                
@@ -68,14 +68,14 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 ml-8 mr-8 mt-8 gap-10 mb-20">
               <div
-                  className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-gray-700 border border-gray-500">
+                  className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#3a3636] border border-gray-500">
                   <h5 className="mb-2 text-xl font-medium leading-tight">PHP</h5>
                   <p className="mb-4 text-base">
                     I specialize in PHP development, building dynamic and scalable web applications with clean, efficient code and best practices.
                   </p> 
                 </div>
                 <div
-                  className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-gray-700 border border-gray-500">
+                  className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#3a3636] border border-gray-500">
                   <h5 className="mb-2 text-xl font-medium leading-tight">Scrum</h5>
                   <p className="mb-4 text-base">
                     Skilled in applying Scrum methodologies to drive agile development, facilitating Sprint Planning, Daily Stand-ups, Reviews, and Retrospectives.                
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="grid grid-cols-3 mt-14">
             <div>
               <div
-                className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-gray-800 border border-gray-500">
+                className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#2d2d2d] border border-gray-500">
                 <h5 className="mb-2 text-xl font-medium leading-tight">Send Message</h5>
                 <div className="relative mt-4" data-twe-input-wrapper-init>
                   <input
@@ -130,7 +130,7 @@ export default function Home() {
                 <div className="text-center">
                   <button
                     type="button"
-                    className="inline-block rounded bg-neutral-100 px-4 pb-2 pt-2 text-sm text-black font-bold leading-normal text-neutral-600 shadow-light-3 transition duration-150 ease-in-out hover:bg-neutral-200 hover:shadow-light-2 focus:bg-neutral-200 focus:shadow-light-2 focus:outline-none focus:ring-0 active:bg-neutral-200 active:shadow-light-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong tracking-wider mt-4">
+                    className="inline-block rounded bg-neutral-100 px-4 pb-2 pt-2 text-sm text-black font-bold leading-normal shadow-light-3 transition duration-150 ease-in-out hover:bg-neutral-200 hover:shadow-light-2 focus:bg-neutral-200 focus:shadow-light-2 focus:outline-none focus:ring-0 active:bg-neutral-200 active:shadow-light-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong tracking-wider mt-4">
                     Submit Message 
                   </button>
                 </div>
@@ -145,7 +145,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <footer className="bg-gray-800">
+        <footer className="bg-[#2d2d2d]">
           <h1 className="text-gray-500 text text-center">@2025 copyright all right reserved</h1>
         </footer>
       </div>      
