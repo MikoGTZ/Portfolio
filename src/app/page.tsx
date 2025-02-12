@@ -3,12 +3,12 @@ import Navbar from "@/app/ui/navbar";
 
 export default function Home() {
   return (
-      <div className="grid grid-rows-3" id="home">
+      <div className="grid-rows-3" id="home">
         <Navbar />
 
         {/* Heropage */}
-        <div className="container bg-black-800 p-20 grid grid-cols-1 md:grid-cols-2 gap-4 mt-8" >
-          <div className="flex flex-col justify-center">
+        <div className="bg-black-800 p-8 md:p-20 grid grid-cols-1 md:grid-cols-2 gap-10 mt-10" >
+          <div className="flex flex-col mt-20 md:justify-center">
             <h1 className="text-white text-5xl my-1">Hello, I'm</h1>
             <h1 className="text-white text-5xl my-1"><strong>Miko Ofiaza</strong></h1>
             <h1 className="text-white text-5xl my-1">Software Developer</h1>
@@ -21,7 +21,7 @@ export default function Home() {
               </button>
             </div>      
           </div>
-          <div className="flex items-center justify-center">
+          <div className="md:flex items-center justify-center">
             <Image 
               src={'/Miko.jpg'}
               width={500}
@@ -34,7 +34,7 @@ export default function Home() {
 
         {/* Skills */}
 
-        <div className="bg-[#3a3636]" id="skills">
+        <div className="bg-[#3a3636] p-2" id="skills">
           <h1 className="text-white text-center text-5xl font-bold mt-20">Skills</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 ml-8 mr-8 mt-8 gap-10">
               <div
@@ -141,7 +141,7 @@ export default function Home() {
             </div>
             <div className="hidden md:block w-1 h-100 bg-white mx-auto"></div>
             <hr className="block md:hidden my-4 border-t-2 border-solid mt-10"/>
-            <div className="grid grid-rows-10">
+            <div className="grid grid-rows-4">
               <h1 className="text-white text-2xl">Quick Contact:</h1>
                 <span className="text-white">Phone: +63 955 543 9830</span>
                 <span className="text-white">Email: mikoofiaza@gmail.com</span>
