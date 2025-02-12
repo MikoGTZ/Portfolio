@@ -3,11 +3,11 @@ import Navbar from "@/app/ui/navbar";
 
 export default function Home() {
   return (
-      <div className="grid grid-rows-3" >
+      <div className="grid grid-rows-3" id="home">
         <Navbar />
 
         {/* Heropage */}
-        <div className="container bg-black-800 p-20 grid grid-cols-1 md:grid-cols-2 gap-4 mt-8" id="home">
+        <div className="container bg-black-800 p-20 grid grid-cols-1 md:grid-cols-2 gap-4 mt-8" >
           <div className="flex flex-col justify-center">
             <h1 className="text-white text-5xl my-1">Hello, I'm</h1>
             <h1 className="text-white text-5xl my-1"><strong>Miko Ofiaza</strong></h1>
@@ -35,7 +35,7 @@ export default function Home() {
         {/* Skills */}
 
         <div className="bg-[#3a3636]" id="skills">
-          <h1 className="text-white text-center text-5xl font-bold mt-10">Skills</h1>
+          <h1 className="text-white text-center text-5xl font-bold mt-20">Skills</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 ml-8 mr-8 mt-8 gap-10">
               <div
                 className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#3a3636] border border-gray-500">
