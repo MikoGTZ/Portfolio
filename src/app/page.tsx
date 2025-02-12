@@ -9,7 +9,7 @@ export default function Home() {
         {/* Heropage */}
         <div className="container bg-black-800 p-20 grid grid-cols-1 md:grid-cols-2 gap-4 mt-8" id="home">
           <div className="flex flex-col justify-center">
-            <h1 className="text-white text-5xl my-1">Hello I'm</h1>
+            <h1 className="text-white text-5xl my-1">Hello, I'm</h1>
             <h1 className="text-white text-5xl my-1"><strong>Miko Ofiaza</strong></h1>
             <h1 className="text-white text-5xl my-1">Software Developer</h1>
             <hr className="my-2 border-t-2 border-solid"/>
