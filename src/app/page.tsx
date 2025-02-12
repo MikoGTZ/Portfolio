@@ -88,7 +88,7 @@ export default function Home() {
 
         {/* Contact */}
         <div className="p-14" id="contact">
-          <h1 className="text-white text-center text-5xl font-bold">Get in Touch</h1>
+          <h1 className="text-white text-center text-5xl font-bold p-8">Get in Touch</h1>
           <div className="grid grid-cols-1 md:grid-cols-3 mt-14">
             <div>
               <div
