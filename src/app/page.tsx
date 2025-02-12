@@ -5,6 +5,8 @@ export default function Home() {
   return (
       <div className="grid grid-rows-3" >
         <Navbar />
+
+        {/* Heropage */}
         <div className="container bg-black-800 p-20 grid grid-cols-2 gap-4" id="home">
           <div className="flex flex-col justify-center">
             <h1 className="text-white text-5xl my-1">Hello, I'm</h1>
@@ -30,7 +32,7 @@ export default function Home() {
           </div>  
         </div>
 
-        {/* Skils */}
+        {/* Skills */}
 
         <div className="bg-[#3a3636]" id="skills">
           <h1 className="text-white text-center text-5xl font-bold mt-10">Skills</h1>
@@ -84,6 +86,7 @@ export default function Home() {
             </div>
         </div>
 
+        {/* Contact */}
         <div className="p-14" id="contact">
           <h1 className="text-white text-center text-5xl font-bold">Get in Touch</h1>
           <div className="grid grid-cols-3 mt-14">
