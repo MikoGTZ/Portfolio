@@ -7,7 +7,7 @@ export default function Home() {
         <Navbar />
 
         {/* Heropage */}
-        <div className="container bg-black-800 p-20 grid grid-cols-2 gap-4" id="home">
+        <div className="container bg-black-800 p-20 grid grid-cols-1 md:grid-cols-2 gap-4 mt-8" id="home">
           <div className="flex flex-col justify-center">
             <h1 className="text-white text-5xl my-1">Hello, I'm</h1>
             <h1 className="text-white text-5xl my-1"><strong>Miko Ofiaza</strong></h1>
@@ -26,7 +26,7 @@ export default function Home() {
               src={'/Miko.jpg'}
               width={500}
               height={100}
-              className="rounded-full aspect-quare object-cover border-8 border-white"
+              className="rounded-full aspect-quare object-cover border-8 border-white "
               alt="My picture in Web View"
             />
           </div>  
@@ -36,7 +36,7 @@ export default function Home() {
 
         <div className="bg-[#3a3636]" id="skills">
           <h1 className="text-white text-center text-5xl font-bold mt-10">Skills</h1>
-            <div className="grid grid-cols-2 ml-8 mr-8 mt-8 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 ml-8 mr-8 mt-8 gap-10">
               <div
                 className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#3a3636] border border-gray-500">
                 <h5 className="mb-2 text-xl font-medium leading-tight">Angular</h5>
@@ -52,7 +52,7 @@ export default function Home() {
                 </p> 
               </div>
             </div>
-            <div className="grid grid-cols-2 ml-8 mr-8 mt-8 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 ml-8 mr-8 mt-8 gap-10">
               <div
                 className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#3a3636] border border-gray-500">
                 <h5 className="mb-2 text-xl font-medium leading-tight">Laravel</h5>
@@ -68,7 +68,7 @@ export default function Home() {
                 </p> 
               </div>
             </div>
-            <div className="grid grid-cols-2 ml-8 mr-8 mt-8 gap-10 mb-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 ml-8 mr-8 mt-8 gap-10 mb-20">
               <div
                   className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#3a3636] border border-gray-500">
                   <h5 className="mb-2 text-xl font-medium leading-tight">PHP</h5>
@@ -89,7 +89,7 @@ export default function Home() {
         {/* Contact */}
         <div className="p-14" id="contact">
           <h1 className="text-white text-center text-5xl font-bold">Get in Touch</h1>
-          <div className="grid grid-cols-3 mt-14">
+          <div className="grid grid-cols-1 md:grid-cols-3 mt-14">
             <div>
               <div
                 className="block rounded-lg p-6 text-surface shadow-secondary-1 dark:bg-surface-dark text-white bg-[#2d2d2d] border border-gray-500">
@@ -139,7 +139,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="w-1 h-100 bg-white mx-auto"></div>
+            <div className="hidden md:block w-1 h-100 bg-white mx-auto"></div>
+            <hr className="block md:hidden my-4 border-t-2 border-solid mt-10"/>
             <div className="grid grid-rows-10">
               <h1 className="text-white text-2xl">Quick Contact:</h1>
                 <span className="text-white">Phone: +63 955 543 9830</span>
