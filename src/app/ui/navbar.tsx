@@ -15,7 +15,7 @@ export default function Navbar() {
             <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <span className="self-center text-3xl font-semibold whitespace-nowrap text-white">MMCO</span>
             </a>
-            <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse gap-3">
+            <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse md:gap-3">
                 <span className="[&>svg]:h-5 [&>svg]:w-5 flex items-center space-x-2 ">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
