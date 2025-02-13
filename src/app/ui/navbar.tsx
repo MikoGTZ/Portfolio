@@ -15,8 +15,8 @@ export default function Navbar() {
             <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <span className="self-center text-3xl font-semibold whitespace-nowrap text-white">MMCO</span>
             </a>
-            <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse md:gap-3">
-                <a href="https://www.facebook.com/mario.miko.cheng.ofiaza.iii/">
+            <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse gap-3">
+                <a href="https://www.facebook.com/mario.miko.cheng.ofiaza.iii/" className="flex">
                     <span className="[&>svg]:h-5 [&>svg]:w-5 flex items-center space-x-2 ">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ export default function Navbar() {
                         </svg>
                     </span>
                 </a>
-                <a href="https://www.linkedin.com/in/mario-miko-ofiaza-iii-26816b34b/">
+                <a href="https://www.linkedin.com/in/mario-miko-ofiaza-iii-26816b34b/" className="flex">
                     <span className="[&>svg]:h-5 [&>svg]:w-5 flex items-center space-x-2">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export default function Navbar() {
                         </svg>
                     </span>
                 </a>
-                <a href="https://x.com/MikoOfiaza61">
+                <a href="https://x.com/MikoOfiaza61" className="flex">
                     <span className="[&>svg]:h-5 [&>svg]:w-5 flex items-center space-x-2">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,6 @@ export default function Navbar() {
                         </svg>
                     </span>
                 </a>
-                    
                 <span className="[&>svg]:h-5 [&>svg]:w-5 flex items-center space-x-2">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
