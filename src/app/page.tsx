@@ -14,11 +14,13 @@ export default function Home() {
             <h1 className="text-white text-5xl my-1">Software Developer</h1>
             <hr className="my-2 border-t-2 border-solid"/>
             <div>
-              <button
-                type="button"
-                className="inline-block rounded bg-neutral-100 px-4 pb-2 pt-2 text-sm font-bold uppercase leading-normal text-black shadow-light-3 transition duration-150 ease-in-out hover:bg-neutral-200 hover:shadow-light-2 focus:bg-neutral-200 focus:shadow-light-2 focus:outline-none focus:ring-0 active:bg-neutral-200 active:shadow-light-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong tracking-wider">
-                Download CV 
-              </button>
+              <a href="/Resume.pdf">
+                <button
+                  type="button"
+                  className="inline-block rounded bg-neutral-100 px-4 pb-2 pt-2 text-sm font-bold uppercase leading-normal text-black shadow-light-3 transition duration-150 ease-in-out hover:bg-neutral-200 hover:shadow-light-2 focus:bg-neutral-200 focus:shadow-light-2 focus:outline-none focus:ring-0 active:bg-neutral-200 active:shadow-light-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong tracking-wider">
+                  Download CV 
+                </button>
+              </a>
             </div>      
           </div>
           <div className="md:flex items-center justify-center">
